@@ -1,7 +1,7 @@
 import praw
 import csv
 
-print(Subreddit Data Collection PRAW; by David E. Silva)
+print('Subreddit Data Collection PRAW; by David E. Silva')
 
 reddit = praw.Reddit(client_id = '', client_secret = '',
 user_agent = 'loseitscript by /u/TechGeck', username = '', password = '')
@@ -17,4 +17,4 @@ with open('loseitdat.csv', 'w', newline = '', encoding = 'utf-8') as loseit:
         'author': submission.author, 'author_flair': submission.author_flair_css_class, 'text': submission.selftext, 'score': submission.score,
         'ups': submission.ups, 'downs': submission.downs, 'comments': submission.num_comments})
         
-print(Done)
+print('Done')
