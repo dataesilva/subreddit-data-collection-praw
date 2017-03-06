@@ -3,8 +3,8 @@ import csv
 
 print(Subreddit Data Collection PRAW; by David E. Silva)
 
-reddit = praw.Reddit(client_id = 'um2kU_kQQ_MepQ', client_secret = '_p_iaoBLbFCSv8-o8P4y85_qGRo',
-user_agent = 'loseitscript by /u/TechGeck', username = 'TechGeck', password = '16soccer')
+reddit = praw.Reddit(client_id = '', client_secret = '',
+user_agent = 'loseitscript by /u/TechGeck', username = '', password = '')
 
 subreddit = reddit.subreddit('Loseit')
 
