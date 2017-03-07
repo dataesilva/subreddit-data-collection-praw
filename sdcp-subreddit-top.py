@@ -16,5 +16,6 @@ with open('loseitdat.csv', 'w', newline = '', encoding = 'utf-8') as loseit:
         writer.writerow({'url': submission.url, 'id': submission.id, 'created': submission.created, 'title': submission.title,
         'author': submission.author, 'author_flair': submission.author_flair_css_class, 'text': submission.selftext, 'score': submission.score,
         'ups': submission.ups, 'downs': submission.downs, 'comments': submission.num_comments})
-        
+#Sometimes stops with 503 error
+#Could fix with try: except code changes
 print('Done')
